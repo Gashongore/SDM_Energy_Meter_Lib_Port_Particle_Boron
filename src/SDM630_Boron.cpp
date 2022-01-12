@@ -208,6 +208,6 @@ void SDM::flush(unsigned long _flushtime) {
 }
 
 void SDM::dereSet(bool _state) {
-  if (_dere_pin != DERE_PIN)
+  //if (_dere_pin != DERE_PIN)
     digitalWrite(_dere_pin, _state);                                            //receive from SDM -> DE Disable, /RE Enable (for control MAX485)
 }

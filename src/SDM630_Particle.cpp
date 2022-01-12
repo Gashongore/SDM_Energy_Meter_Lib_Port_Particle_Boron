@@ -3,7 +3,7 @@
 /******************************************************/
 
 #include "Particle.h"
-#line 1 "/Users/gashongore/Desktop/Port_Particle/SDM630_Particle/src/SDM630_Particle.ino"
+#line 1 "/Users/gashongore/Desktop/SDM630/SDM_Energy_Meter_Lib_Port_Particle_Boron/src/SDM630_Particle.ino"
 /*
  * Project SDM630_Particle
  * Description:
@@ -11,14 +11,11 @@
  * Date: 2022/01/13
  */
 
-void setup();
-void loop();
-#line 8 "/Users/gashongore/Desktop/Port_Particle/SDM630_Particle/src/SDM630_Particle.ino"
-#define READSDMEVERY  2000                           //read sdm every 2000ms
-#define NBREG   5 
-
 #include "SDM630_Boron.h"
  
+void setup();
+void loop();
+#line 10 "/Users/gashongore/Desktop/SDM630/SDM_Energy_Meter_Lib_Port_Particle_Boron/src/SDM630_Particle.ino"
 SDM sdm(SDM_UART_BAUD,DERE_PIN, SERIAL_8N1); // 
 // setup() runs once, when the device is first turned on.
 void setup() {

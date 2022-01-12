@@ -5,9 +5,6 @@
  * Date: 2022/01/13
  */
 
-#define READSDMEVERY  2000                           //read sdm every 2000ms
-#define NBREG   5 
-
 #include "SDM630_Boron.h"
  
 SDM sdm(SDM_UART_BAUD,DERE_PIN, SERIAL_8N1); // 
