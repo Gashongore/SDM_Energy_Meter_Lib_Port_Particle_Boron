@@ -1,10 +1,10 @@
-# smd6830_Energy
+# SDM630_Particle
 
-A Particle project named smd6830_Energy
+A Particle project named SDM630_Particle
 
 ## Welcome to your project!
 
-Every new Particle project is composed of 3 important elements that you'll see have been created in your project directory for smd6830_Energy.
+Every new Particle project is composed of 3 important elements that you'll see have been created in your project directory for SDM630_Particle.
 
 #### ```/src``` folder:  
 This is the source folder that contains the firmware files for your project. It should *not* be renamed. 
